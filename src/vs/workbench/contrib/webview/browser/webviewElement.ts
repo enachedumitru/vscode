@@ -38,6 +38,7 @@ import { FromWebviewMessage, KeyEvent, ToWebviewMessage } from 'vs/workbench/con
 import { decodeAuthority, webviewGenericCspSource, webviewRootResourceAuthority } from 'vs/workbench/contrib/webview/common/webview';
 import { IWorkbenchEnvironmentService } from 'vs/workbench/services/environment/common/environmentService';
 
+
 interface WebviewContent {
 	readonly html: string;
 	readonly options: WebviewContentOptions;
